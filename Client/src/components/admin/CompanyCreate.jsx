@@ -24,7 +24,7 @@ const CompanyCreate = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                withCredentials: true
+                withCredentials: false
             })
 
             if (response.data.success) {
