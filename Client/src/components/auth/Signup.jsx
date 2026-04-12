@@ -96,7 +96,7 @@ const Signup = () => {
               value={input.fullname}
               name="fullname"
               onChange={changeEventHandler}
-              placeholder="Shubham Kumar"
+              placeholder="Enter Your Name"
             />
           </div>
           <div className='my-2'>
@@ -106,7 +106,7 @@ const Signup = () => {
               value={input.email}
               name="email"
               onChange={changeEventHandler}
-              placeholder="john.doe@gmail.com"
+              placeholder="Enter Your Email"
             />
           </div>
           <div className='my-2'>
